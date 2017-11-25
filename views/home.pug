@@ -1,0 +1,16 @@
+include includes/layout
+        .row
+            .col-md-4
+                h3 Rooms
+                div#rooms
+            .col-md-8
+                h3#roomName
+                .form-group
+                    textarea#messages.form-control(rows='15')
+                    button#delete.btn.btn-danger Delete all messages
+                .form-group
+                    textarea#postMessages.form-control(rows='3')
+                    button#post.btn.btn-primary Post messages
+
+script(src='/jquery.js')
+script(src='/home.js')

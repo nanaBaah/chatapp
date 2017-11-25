@@ -1,0 +1,18 @@
+[
+  {
+    "name": "republicans",
+    "id": "7344e6b5-02d5-4eb9-89b5-7d334edc370c"
+  },
+  {
+    "name": "democrats",
+    "id": "ffc4dd63-20da-48f3-9d47-3158e34eac93"
+  },
+  {
+    "name": "independents",
+    "id": "1e847f0f-9d97-4b6e-b0ef-62f711da070a"
+  },
+  {
+    "name": "no politics",
+    "id": "170a1f6d-cd09-4308-813e-7c830f71f5a5"
+  }
+]

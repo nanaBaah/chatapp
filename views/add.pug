@@ -1,0 +1,10 @@
+include includes/layout.pug
+    h3 Add Room
+
+    form(method='POST')
+        fieldset
+            .form-group
+                label(for='name') Name
+                input#name.form-control(type='name', name='name', placeholder='Enter a chat room name')
+            button.btn.btn-primary(type='submit') Add Chat Room
+            a.btn.btn-danger(href='/admin/rooms') Cancel

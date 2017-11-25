@@ -1,0 +1,20 @@
+[
+  {
+    "text": "test",
+    "roomId": "7344e6b5-02d5-4eb9-89b5-7d334edc370c",
+    "userId": "523e8ff2-7ae7-49b4-93cf-41362c6028ea",
+    "id": "b1f3e1d7-26c2-4511-bef7-a2eb73eaa1be"
+  },
+  {
+    "text": "wes",
+    "roomId": "7344e6b5-02d5-4eb9-89b5-7d334edc370c",
+    "userId": "523e8ff2-7ae7-49b4-93cf-41362c6028ea",
+    "id": "6ce8bdd1-578e-4b37-92df-5bac4701f801"
+  },
+  {
+    "text": "Really, hello guys",
+    "roomId": "7344e6b5-02d5-4eb9-89b5-7d334edc370c",
+    "userId": "523e8ff2-7ae7-49b4-93cf-41362c6028ea",
+    "id": "12811939-c80f-4302-a94b-b3d8a4b472cb"
+  }
+]

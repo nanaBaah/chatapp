@@ -1,0 +1,22 @@
+include includes/layout.pug
+    h3 List of created rooms
+
+    a(href='/admin/rooms/add').btn.btn-primary Create new chat room
+    table.table.table-striped
+        thead
+            tr
+                th
+                th Name
+                th
+                th id
+        tbody
+            each room in rooms
+                tr
+                    td
+                        a(href='/admin/rooms/delete/' + room._id)
+                            span.glyphicon.glyphicon-remove(aria-hidden='true')
+                    td= room.name
+                    td
+                        a(href='/admin/rooms/edit/' + room._id)
+                            span.glyphicon.glyphicon-pencil(aria-hidden='true')
+                    td= room._id
